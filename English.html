@@ -1,0 +1,23 @@
+<html style="background-image: url(Images/EBackg.jpg); background-repeat: no-repeat; background-size: cover;">>
+<head>
+    <title>
+    S9b- Home Page
+    </title>
+    </head>
+<header style="text-align: center; font-size: 80;">
+    <h1><b> Under Maintinance </b></h1>
+</header>
+    <body>
+      <script>
+         var password = "English";
+         (function passcodeprotect() {
+            var passcode = prompt("Enter PassCode");
+            while (passcode !== password) {
+               alert("Incorrect PassCode");
+               return passcodeprotect();
+            }
+         }());
+         alert('Under Maintinance');
+      </script>
+   </body>
+</html>
